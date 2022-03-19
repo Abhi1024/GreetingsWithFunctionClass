@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './Css/Greeting.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@coreui/coreui/dist/css/coreui.min.css';
+// import { CAlert, CCard, CCardHeader, CCardBody, CCardTitle, CCardText, CButton, CCardFooter } from "@coreui/react";
+import Greeting from "./Greeting";
+// import {CRow, CCol, CCard, CCardBody, CCardTitle, CCardText, CButton} from "@coreui/react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const App = () =>{
+  return(
+    <>
+      <Greeting />
+    </>
   );
 }
+
 
 export default App;

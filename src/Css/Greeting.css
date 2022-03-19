@@ -1,0 +1,10 @@
+*{margin: 0; padding: 0; box-sizing: border-box; background: cornflowerblue;}
+.greeting{
+    text-align: center;
+    font-size: 50px;
+    margin: 200px;
+    padding: 50px;
+    font-weight: 500;
+    text-shadow: 0px 4px 1px #000;
+    color: #fff;
+}
